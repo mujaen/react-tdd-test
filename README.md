@@ -35,5 +35,5 @@ yarn set version berry
 
 ## Getting Started
 ```
-yarn run dev
+yarn run test
 ```
