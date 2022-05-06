@@ -1,4 +1,4 @@
-const person = (name, age) => {
+const person = (name: string, age: number) => {
     return {
         name,
         age
