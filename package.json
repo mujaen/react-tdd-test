@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test": "jest  --watch"
+  },
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
     "@babel/core": "^7.17.10",
