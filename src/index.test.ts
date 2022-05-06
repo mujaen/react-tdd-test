@@ -1,17 +1,15 @@
-import {sum} from './sum';
-import person from './person';
-import range from './range';
+import {sum, person, range} from './index';
 
 describe('test index', () => {
-    test('sums 1 + 2 to equal 3', () => {
+    it('sums 1 + 2 to equal 3', () => {
         expect(sum(1, 2)).toBe(3);
     }) ;
 
-    test('person name age', () => {
+    it('person name age', () => {
         expect(person('minho', 33)).toEqual({name: 'minho', age: 33});
     });
 
-    test('has 2', () => {
+    it('has 2', () => {
         expect(range(1, 3)).toContain(2);
     });
 });
